@@ -1,4 +1,4 @@
-# Number Classification API
+# classificationApi# Number Classification API
 
 This API takes a number and returns interesting mathematical properties about it, along with a fun fact.
 
@@ -38,4 +38,9 @@ This API takes a number and returns interesting mathematical properties about it
 2. Run `npm install` to install dependencies.
 3. Start the server with `node server.js`.
 4. Access the API at `http://localhost:3000/api/classify-number?number=<your-number>`.
+
+
+
+
+
 
