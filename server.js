@@ -57,9 +57,6 @@ app.get("/api/classify-number", async (req, res) => {
     if (num % 2 === 0) {
         properties.push("even");
     }
-    if (isPrime(num)) {
-        properties.push("prime");
-    }
 
     // Fetch fun fact from Numbers API
     try {
