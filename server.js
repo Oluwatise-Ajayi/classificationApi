@@ -13,7 +13,7 @@ app.get("/api/classify-number", async (req, res) => {
 
     // Input validation
     if (!number || isNaN(number) || !Number.isInteger(Number(number))) {
-        return res.status(400).json({ number: number, error: true });
+        return res.status(400).json({ number: "undefined", error: true });
     }
 
     const num = parseInt(number);
