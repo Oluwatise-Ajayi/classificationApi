@@ -60,7 +60,7 @@ app.get("/api/classify-number", async (req, res) => {
 
     // Fetch fun fact from Numbers API
     try {
-        const response = await axios.get(`http://numbersapi.com/${num}`);
+        const response = await axios.get(`http://numbersapi.com/${num}/math`);
         funFact = response.data;
     } catch (error) {
         funFact = "No fun fact available.";
